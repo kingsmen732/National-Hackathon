@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import pickle
 
-input_file = open('atm_sim_accounts.pkl', 'rb')
+input_file = open('atm_sim_accounts.pickle', 'rb')
 acc = pickle.load(input_file)
 
 # GLOBAL VARIABLES FOR COLORS
@@ -131,13 +131,13 @@ class ATMLogin(tk.Frame):
             self.sin_out.config(text='Different pins!')
 
         # UPDATING TO DICTIONARY[WITHIN]
-        output_file = open('atm_sim_accounts.pkl', 'wb')
+        output_file = open('atm_sim_accounts.pickle', 'wb')
         pickle.dump(acc, output_file)
         output_file.close()
 
     def save(self):
         # UPDATING TO DICTIONARY[SEPARATELY]
-        output_file = open('atm_sim_accounts.pkl', 'wb')
+        output_file = open('atm_sim_accounts.pickle', 'wb')
         pickle.dump(acc, output_file)
         output_file.close()
 
@@ -210,7 +210,7 @@ class ATMAction(tk.Frame):
             self.drawe.delete(0, 'end')  # CLEARING ENTRY BOX
 
         # UPDATING TO DICTIONARY[WITHIN]
-        output_file = open('atm_sim_accounts.pkl', 'wb')
+        output_file = open('atm_sim_accounts.pickle', 'wb')
         pickle.dump(acc, output_file)
         output_file.close()
 
@@ -230,7 +230,7 @@ class ATMAction(tk.Frame):
             self.depe.delete(0, 'end')  # CLEARING ENTRY BOX
 
         # UPDATING TO DICTIONARY[WITHIN]
-        output_file = open('atm_sim_accounts.pkl', 'wb')
+        output_file = open('atm_sim_accounts.pickle', 'wb')
         pickle.dump(acc, output_file)
         output_file.close()
 
@@ -252,7 +252,7 @@ class ATMAction(tk.Frame):
             ATMLogin(self.master).pack()
 
             # UPDATING TO DICTIONARY[WITHIN]
-            output_file = open('atm_sim_accounts.pkl', 'wb')
+            output_file = open('atm_sim_accounts.pickle', 'wb')
             pickle.dump(acc, output_file)
             output_file.close()
         else:
