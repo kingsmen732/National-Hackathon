@@ -1,6 +1,6 @@
-# hidden-handle
+# Hidden-Handle
 
-## Project Overview and Detalied Data Flow Diagram:
+## Project Overview and Detailed Data Flow Diagram:
 What we offer is a new novel way of upgrading that door handle in an inconspicuous way that is non-existent in the current smart door handle market bloated with complicated and intimidating-looking mechanisms.Smart homes are a growing market with each and every section of a house incorporating technology to evolve, the same is true for handles be they on your door, your fridge, a school locker, a garage door, or an IIEC cabin space. What we offer is a new novel way of upgrading that door handle in an inconspicuous way that is non-existent in the current smart door handle market bloated with complicated and intimidating-looking mechanisms.
 
 Our aim is to provide a commercial implementation of a door handle that at first glance appears to be perfectly rudimentary, one that might be encountered in a typical home. However, it actually houses a recognition mechanism that is able to identify an intruder anomaly in a fraction of a second and alert not only you, the owner but also all connected smart devices and your local smart home network.
@@ -25,7 +25,7 @@ The CAD designs for a novel smart door handle concept designed for seamless inte
 
 **3. Smart Home Integration:** The design allows for connection with other smart home devices, enabling automated responses upon intruder detection. (Note: Implementation details for this functionality are not included in this repository)
 
-We've also attached a stl file for the same dasign.
+We've also attached a STL file for the same design.
 
 ![Untitled](https://github.com/atulakella/hidden-handle/assets/44159259/c7993552-8248-48c8-97c5-df4ff75c28e6)
 
@@ -46,9 +46,9 @@ This schematic illustrates the electrical connections and components that form t
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
 
 ## Future Plans
-This can later be integrated with an API like PushBullet and can make a simple API call whenever someone access a few restricted areas or something similar.
+This can later be integrated with an API like PushBullet and can make a simple API call whenever someone accesses a few restricted areas or something similar.
 
 ## Contributes
-Atul Akella (atulakella)
 Mithlesh B (Kingsmen732)
+Atul Akella (atulakella)
 Jai Gaurav (jai-gaurav)
