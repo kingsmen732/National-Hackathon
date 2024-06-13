@@ -1,4 +1,5 @@
 # Hidden-Handle
+![title-pic](https://github.com/kingsmen732/National-Hackathon/blob/main/demo.png)
 
 ## Project Overview and Detailed Data Flow Diagram:
 What we offer is a new novel way of upgrading that door handle in an inconspicuous way that is non-existent in the current smart door handle market bloated with complicated and intimidating-looking mechanisms.Smart homes are a growing market with each and every section of a house incorporating technology to evolve, the same is true for handles be they on your door, your fridge, a school locker, a garage door, or an IIEC cabin space. What we offer is a new novel way of upgrading that door handle in an inconspicuous way that is non-existent in the current smart door handle market bloated with complicated and intimidating-looking mechanisms.
